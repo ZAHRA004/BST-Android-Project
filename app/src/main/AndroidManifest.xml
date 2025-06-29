@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="BinaryTree"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HELLO"
+        tools:targetApi="31">
+        <activity
+            android:name=".Slide3"
+            android:exported="false" />
+        <activity
+            android:name=".Slide2"
+            android:exported="false" />
+        <activity
+            android:name=".Slide1"
+            android:exported="false" />
+        <activity
+            android:name=".Postorder_Tree"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityIntro"
+            android:exported="false" /> <!-- add adad -->
+        <activity
+            android:name=".MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:taskAffinity="com.example.myapp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HELLO</string>
+    <string name="title1">DataStructures Project</string>
+    <string name="subtitle1">binary search tree</string>
+    <string name="hesder_text1">App developers:</string>
+    <string name="text1.1">Hasti Najafi</string>
+    <string name="text1.2">Zahra sadat taghavi</string>
+
+    <string name="title2">What is a binary search tree?</string>
+    <string name="subtitle2">binary search tree, is a rooted binary tree data structure with the key of each internal node being greater than all the keys in the respective node\'s left subtree and less than the ones in its right subtree</string>
+
+    <string name="title3">How does the Postorder Traversal work?</string>
+    <string name="subtitle3">Nodes from the left subtree get visited first, followed by the right subtree, and finally, the root</string>
+
+    <string name="title4">Now create your own binary search tree</string>
+    <string name="subtitle4">Let\'s get start</string>
+</resources>
