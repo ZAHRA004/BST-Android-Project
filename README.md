@@ -24,4 +24,4 @@ Users can insert numbers to build the tree and see how the search operation is p
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Zahra-taghavi/BST-Android-Project.git
+   git clone https://github.com/zhra-dev/BST-Android-Project.git
